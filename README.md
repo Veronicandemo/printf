@@ -1,1 +1,1 @@
-Printf project done by Veroniuca Ndemo and Kevin Erick.
+Printf collaboration project by Kevin Erick and Veronica Ndemo
