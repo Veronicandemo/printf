@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * convert - converts number and base into string
+ * convert - converts number and base datatypes into string
  * @num: input number
  * @base: input base
- * @lowercase: flag if hexa values need to be lowercase
+ * @lowercase: flag if hexa values are required to be lowercase
  * Return: resulting string
  */
 char *convert(unsigned long int num, int base, int lowercase)
@@ -14,8 +14,8 @@ char *convert(unsigned long int num, int base, int lowercase)
 	char *ptr;
 
 	rep = (lowercase)
-		? "0123456789abcdef"
-		: "0123456789ABCDEF";
+		? "0123456789ABCDEF"
+		: "0123456789abcdef";
 	ptr = &buffer[49];
 	*ptr = '\0';
 	do {
